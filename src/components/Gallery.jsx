@@ -1,38 +1,44 @@
 import Reveal from './Reveal.jsx';
 import './Gallery.css';
+import rec from "../assets/rec.png";
+import student from "../assets/student.png";
+import table from "../assets/table.png";
+import cabins from "../assets/cabins.png";
+import sitting from "../assets/sitting.png";
+import ChatGpt from "../assets/ChatGpt.png";
 
 const IMAGES = [
   {
-    src: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80',
+    src: rec,
     alt: 'Reading hall with students at individual desks',
     label: 'Reading Hall',
     tall: true,
   },
   {
-    src: 'https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=700&q=80',
+    src: cabins,
     alt: 'Quiet study cabins with dividers',
     label: 'Study Cabins',
   },
   {
-    src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=700&q=80',
+    src: sitting,
     alt: 'Library reception desk',
     label: 'Reception',
   },
   {
-    src: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=700&q=80',
+    src: ChatGpt,
     alt: 'Library interior with tall bookshelves',
-    label: 'Library Interior',
+    label: 'Students Studying',
     tall: true,
   },
   {
-    src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=700&q=80',
+    src: student,
     alt: 'Students studying together at a shared table',
-    label: 'Students Studying',
+    label: 'Library Interior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80',
+    src: table,
     alt: 'Bright study hall with natural light',
-    label: 'Study Hall',
+    label: 'Study tables',
   },
 ];
 

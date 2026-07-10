@@ -5,11 +5,12 @@
   right: 0;
   z-index: 100;
   padding: 20px 0;
+  background: #fff;
   transition: background var(--dur-med) var(--ease-out), box-shadow var(--dur-med) var(--ease-out), padding var(--dur-med) var(--ease-out);
 }
 
 .navbar--solid {
-  background: rgba(248, 250, 248, 0.85);
+  background: rgba(241, 249, 241, 0.85);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   box-shadow: var(--shadow-sm);
@@ -28,6 +29,11 @@
   align-items: center;
   gap: 12px;
   font-family: var(--font-display);
+}
+.navbar__logo-img{
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
 }
 
 .navbar__logo-mark {
@@ -49,7 +55,8 @@
   flex-direction: column;
   font-weight: 700;
   font-size: 18px;
-  color: var(--color-text);
+  color: #0048e5dc;
+ 
   line-height: 1.1;
 }
 
@@ -96,9 +103,16 @@
   color: var(--color-primary-dark);
 }
 
-.navbar__cta {
-  padding: 11px 22px;
-  font-size: 14px;
+.navbar__cta{
+    background: #2563eb;
+    color: #fff !important;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.navbar__cta:hover{
+     background: #1d4ed8;
+    color: #fff !important;
 }
 
 .navbar__status {
@@ -106,9 +120,10 @@
   align-items: center;
   gap: 8px;
   font-size: 12.5px;
+  color: #2563eb;
   font-weight: 600;
-  color: var(--color-primary-dark);
-  background: var(--color-secondary);
+  color: #2563eb;
+  background: #eff6ff;
   padding: 8px 14px;
   border-radius: var(--radius-pill);
   white-space: nowrap;
@@ -118,17 +133,22 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--color-primary);
-  box-shadow: 0 0 0 0 rgba(74, 124, 42, 0.6);
+  background: #2563eb;
+  box-shadow: 0 0 0 0 rgba(37,99,235,.5);
   animation: pulseDot 2s infinite;
 }
 
 @keyframes pulseDot {
-  0% { box-shadow: 0 0 0 0 rgba(74, 124, 42, 0.5); }
-  70% { box-shadow: 0 0 0 8px rgba(74, 124, 42, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(74, 124, 42, 0); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(37,99,235,.5);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(37,99,235,0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37,99,235,0);
+  }
 }
-
 .navbar__toggle {
   display: none;
   flex-direction: column;

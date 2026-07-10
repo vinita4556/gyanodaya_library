@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Navbar.css';
+import logo from "../assets/Logo.png"; // apne folder ke hisab se path change kar lena
 
 const LINKS = [
   { label: 'Home', href: '#home' },
@@ -27,12 +28,15 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--solid' : ''}`}>
       <div className="container navbar__inner">
-        <a href="#home" className="navbar__logo">
-          <span className="navbar__logo-mark">SN</span>
-          <span className="navbar__logo-text">
-            StudyNest<span className="navbar__logo-sub">Self Study Library</span>
-          </span>
-        </a>
+       <a href="#home" className="navbar__logo">
+       <img src={logo} alt="StudyNest Logo" className="navbar__logo-img" />
+       <span className="navbar__logo-text">
+       Gyanodaya 
+       <span className="navbar__logo-sub">
+       Self Study Library
+       </span>
+       </span>
+       </a>
 
         <nav className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>
           {LINKS.map((link) => (

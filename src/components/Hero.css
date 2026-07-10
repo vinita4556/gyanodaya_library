@@ -5,21 +5,25 @@
   align-items: center;
   overflow: hidden;
   padding-top: 90px;
-  background: linear-gradient(180deg, #eef5ec 0%, var(--color-bg) 100%);
+  background: #ffffff;
 }
 
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle at 15% 20%, rgba(74, 124, 42, 0.10), transparent 40%),
-    radial-gradient(circle at 85% 70%, rgba(201, 150, 43, 0.10), transparent 45%);
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(37, 99, 235, 0.08), transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(59, 130, 246, 0.08), transparent 45%);
   z-index: 0;
 }
-
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(209, 232, 210, 0.35) 0%, rgba(248, 250, 248, 0) 60%);
+   background: linear-gradient(
+    120deg,
+    rgba(59,130,246,0.08) 0%,
+    rgba(255,255,255,0) 60%
+  );
   z-index: 0;
 }
 
@@ -45,7 +49,7 @@
 }
 
 .hero__title-accent {
-  color: var(--color-primary);
+  color: #0048e5dc;
   position: relative;
 }
 
@@ -130,6 +134,7 @@
 }
 
 .hero__float strong {
+
   display: block;
   font-family: var(--font-display);
   font-size: 16px;

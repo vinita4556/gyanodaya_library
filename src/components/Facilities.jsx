@@ -1,5 +1,6 @@
 import Reveal from './Reveal.jsx';
 import './Facilities.css';
+import library from "../assets/library.png";
 
 const FACILITIES = [
   'Comfortable Chairs',
@@ -19,7 +20,7 @@ export default function Facilities() {
       <div className="container facilities__grid">
         <Reveal zoom className="facilities__media">
           <img
-            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80"
+            src={library}
             alt="A well-lit study hall with rows of desks and chairs"
           />
           <div className="facilities__media-badge glass">
