@@ -4,7 +4,7 @@ import './Testimonials.css';
 
 const REVIEWS = [
   {
-    name: 'Ananya Sharma',
+    name: 'Vinita Parmar',
     exam: 'UPSC Aspirant',
     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=160&q=80',
     rating: 5,

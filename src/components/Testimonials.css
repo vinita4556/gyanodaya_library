@@ -1,5 +1,5 @@
 .testimonials {
-  background: var(--color-bg);
+  background:rgb(211, 222, 241);
 }
 
 .testimonials__slider {
@@ -20,7 +20,7 @@
   padding: 48px 44px;
   text-align: center;
   box-shadow: var(--shadow-md);
-  border: 1px solid rgba(74, 124, 42, 0.07);
+  border: 1px solid rgba(63, 96, 228, 0.25);
 }
 
 .testimonial-card__stars {
@@ -79,12 +79,12 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--color-secondary);
+  background:rgb(99, 126, 187);
   transition: transform var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
 }
 
 .testimonials__dot--active {
-  background: var(--color-primary);
+  background: rgb(7, 88, 238);
   transform: scale(1.3);
 }
 

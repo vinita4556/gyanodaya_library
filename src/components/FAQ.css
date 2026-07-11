@@ -9,15 +9,14 @@
 }
 
 .faq__item {
-  background: var(--color-bg);
   border-radius: var(--radius-md);
-  border: 1px solid rgba(74, 124, 42, 0.08);
+  border: 1px solid rgba(63, 96, 228, 0.25);
   overflow: hidden;
   transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
 }
 
 .faq__item--open {
-  border-color: rgba(74, 124, 42, 0.25);
+  border-color: rgba(63, 96, 228, 0.25);
   box-shadow: var(--shadow-sm);
 }
 
@@ -40,8 +39,8 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: var(--color-secondary);
-  color: var(--color-primary-dark);
+  background:rgb(65, 118, 242);
+  color:#fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +50,7 @@
 
 .faq__item--open .faq__icon {
   transform: rotate(45deg);
-  background: var(--color-primary);
+  background:rgb(65, 118, 242);
   color: var(--color-white);
 }
 
