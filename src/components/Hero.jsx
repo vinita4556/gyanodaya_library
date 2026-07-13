@@ -1,5 +1,5 @@
 import './Hero.css';
-import hero from "../assets/hero.png";
+import logo4 from "../assets/logo4.png";
 
 export default function Hero() {
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="hero__focus-ring" aria-hidden="true" />
           <div className="hero__image-frame">
             <img
-              src={hero}
+              src={logo4}
               alt="Students studying quietly at individual desks in a bright reading hall"
               className="hero__image"
             />
