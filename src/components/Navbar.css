@@ -1,19 +1,22 @@
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  padding: 20px 0;
-  background: #fff;
-  transition: background var(--dur-med) var(--ease-out), box-shadow var(--dur-med) var(--ease-out), padding var(--dur-med) var(--ease-out);
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid #E6EDF8;
+    box-shadow:0 8px 25px rgba(49,94,158,.08);
+    transition:.3s;
 }
 
 .navbar--solid {
-  background: rgba(241, 249, 241, 0.85);
+  background:#ffffff;
+  box-shadow:0 10px 30px rgba(49,94,158,.12);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  box-shadow: var(--shadow-sm);
   padding: 12px 0;
 }
 
