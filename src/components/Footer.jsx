@@ -1,10 +1,11 @@
 import './Footer.css';
+import logo from '../assets/logo.png'; 
 
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Why Us', href: '#why-us' },
   { label: 'Facilities', href: '#facilities' },
-  { label: 'Plans', href: '#plans' },
+ 
 ];
 
 const QUICK_LINKS = [
@@ -27,8 +28,8 @@ export default function Footer() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <a href="#home" className="footer__logo">
-            <span className="footer__logo-mark">SN</span>
-            StudyNest
+           <img src={logo} alt="Gyanoday Library Logo" className="footer__logo-img" />
+            <span>Gyanoday Library</span>
           </a>
           <p>
             A peaceful, distraction-free self study library for serious competitive
@@ -64,17 +65,15 @@ export default function Footer() {
         <div className="footer__col">
           <h4>Contact</h4>
           <ul className="footer__contact">
-            <li>Station Road, Dewas, MP</li>
+            <li>50, Bima Rd, Shiv Shakti Nagar, Nagar Nigam Colony, Dewas, Madhya Pradesh 455001</li>
             <li>+91 98765 43210</li>
-            <li>hello@studynest.in</li>
           </ul>
         </div>
       </div>
 
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>© {new Date().getFullYear()} StudyNest Self Study Library. All rights reserved.</p>
-          <p>Designed for focused minds.</p>
+          <p>© {new Date().getFullYear()} Gyanoday Library. All rights reserved.</p>
         </div>
       </div>
     </footer>

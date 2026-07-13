@@ -4,24 +4,30 @@
 
 :root {
   /* Brand palette */
-  --color-primary: #4A7C2A;
-  --color-primary-dark: #385f20;
-  --color-primary-light: #6a9c48;
-  --color-secondary: #D1E8D2;
+   /* =========================
+     Blue & White Theme
+  ========================= */
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-primary-light: #60A5FA;
+  --color-secondary: #DBEAFE;
   --color-white: #FFFFFF;
-  --color-bg: #F8FAF8;
-  --color-text: #1F2937;
-  --color-text-muted: #5B6B62;
+  --color-bg: #F8FBFF;
+  --color-text: #0F172A;
+  --color-text-muted: #64748B;
+  --color-accent: #2563EB;
+  --color-accent-light: #EFF6FF;
 
-  /* Accent — muted brass gold, evokes a reading lamp / premium desk fittings */
-  --color-accent: #C9962B;
-  --color-accent-light: #F3E4C2;
+  /* Accent — muted brass gold, evokes a reading lamp / premium desk fittings */ 
+  --color-accent: #2563EB;
+  --color-accent-light: #EFF6FF;
+  
 
   /* Elevation */
-  --shadow-sm: 0 2px 10px rgba(31, 41, 32, 0.06);
-  --shadow-md: 0 10px 30px rgba(31, 41, 32, 0.10);
-  --shadow-lg: 0 24px 60px rgba(31, 41, 32, 0.16);
-  --shadow-glow: 0 0 0 1px rgba(74, 124, 42, 0.08), 0 20px 50px rgba(74, 124, 42, 0.18);
+ --shadow-sm: 0 4px 15px rgba(15,23,42,.05);
+  --shadow-md: 0 12px 35px rgba(15,23,42,.08);
+  --shadow-lg: 0 20px 50px rgba(37,99,235,.15);
+  --shadow-glow: 0 15px 45px rgba(37,99,235,.18);
 
   /* Radii */
   --radius-sm: 12px;
@@ -34,12 +40,12 @@
   --font-body: 'Inter', 'Segoe UI', sans-serif;
 
   /* Motion */
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --dur-fast: 0.25s;
-  --dur-med: 0.5s;
-  --dur-slow: 0.9s;
+  --ease-out:cubic-bezier(0.16,1,0.3,1);
+  --dur-fast:.3s;
+  --dur-med:.5s;
+  --dur-slow:.8s;
 
-  --container-w: 1240px;
+  --container-w:1240px;
 }
 
 * {
@@ -54,8 +60,8 @@ html {
 
 body {
   font-family: var(--font-body);
-  color: var(--color-text);
-  background: var(--color-bg);
+  background:#F8FBFF;
+  color:#0F172A;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -90,12 +96,12 @@ h1, h2, h3, h4 {
 }
 
 ::selection {
-  background: var(--color-secondary);
-  color: var(--color-primary-dark);
+  background:#DBEAFE;
+  color:#1D4ED8;
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid #2563EB;
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -120,7 +126,7 @@ h1, h2, h3, h4 {
 }
 
 .section-alt {
-  background: var(--color-white);
+  background:#FFFFFF;
 }
 
 .section-head {
@@ -138,8 +144,8 @@ h1, h2, h3, h4 {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #2563eb;
-   background: rgba(37, 99, 235, 0.1);
+  color:var(--color-primary);
+  background:var(--color-secondary);
   padding: 8px 18px;
   border-radius: var(--radius-pill);
   margin-bottom: 18px;

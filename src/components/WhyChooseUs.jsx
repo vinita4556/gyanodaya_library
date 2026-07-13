@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
     <section id="why-us" className="section why">
       <div className="container">
         <Reveal as="div" className="section-head">
-          <span className="eyebrow">Why Choose StudyNest</span>
+          <span className="eyebrow">Why Choose Gyanoday Library </span>
           <h2>Everything you need to focus, nothing that pulls you away</h2>
           <p>Every detail — from lighting to layout — is designed around one goal: helping you study without interruption.</p>
         </Reveal>
