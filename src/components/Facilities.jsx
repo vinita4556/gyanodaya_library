@@ -3,15 +3,16 @@ import './Facilities.css';
 import library from "../assets/library.png";
 
 const FACILITIES = [
-  'Comfortable Chairs',
-  'Personal Study Desks',
-  'Charging Points',
-  'Drinking Water',
-  'RO Water',
-  'Washroom',
-  'Daily Cleaning',
-  'Newspaper',
-  'Locker Facility',
+' High Speed Internet (Wifi) Connectivity' , 
+' Personal Cubical Cabin',  
+' Separate Charging Point' , 
+' Air cool & Peaceful environment' ,
+' R. O. Drinking Water' ,
+' Clean Washroom' ,
+' Hindi / English Newspaper',
+' Monthly Magazine' ,
+' First Aid Availability' ,
+'CCTV Surveillance' ,
 ];
 
 export default function Facilities() {
