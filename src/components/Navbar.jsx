@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import './Navbar.css';
-import logo from "../assets/Logo.png"; // apne folder ke hisab se path change kar lena
+import logo from "../assets/main.png"; // apne folder ke hisab se path change kar lena
 
 const LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Why Us', href: '#why-us' },
   { label: 'Facilities', href: '#facilities' },
-  { label: 'Plans', href: '#plans' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Reviews', href: '#reviews' },
   { label: 'FAQ', href: '#faq' },

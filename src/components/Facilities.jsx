@@ -1,6 +1,6 @@
 import Reveal from './Reveal.jsx';
 import './Facilities.css';
-import library from "../assets/library.png";
+import library from "../assets/cool.png";
 
 const FACILITIES = [
 ' High Speed Internet (Wifi) Connectivity' , 
