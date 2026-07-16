@@ -4,9 +4,9 @@ import './Contact.css';
 
 const INFO = [
   { icon: '📍', label: 'Address', value: '50, Bima Rd, Shiv Shakti Nagar, Nagar Nigam Colony, Dewas, Madhya Pradesh 455001' },
-  { icon: '📞', label: 'Phone', value: '+91 98765 43210' },
+  { icon: '📞', label: 'Phone', value: '+91 9826527427' },
   { icon: '✉️', label: 'Email', value: 'hello@studynest.in' },
-  { icon: '🕒', label: 'Opening Hours', value: 'Open 24×7 for members' },
+  { icon: '🕒', label: 'Opening Hours', value: `8:00 AM – 11:00 PM , Open 7 Days a Week`, }
 ];
 
 export default function Contact() {

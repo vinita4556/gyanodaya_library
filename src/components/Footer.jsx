@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__col">
-          <h4>Navigation</h4>
+        
           <ul>
             {NAV_LINKS.map((l) => (
               <li key={l.label}><a href={l.href}>{l.label}</a></li>
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__col">
-          <h4>Quick Links</h4>
+          
           <ul>
             {QUICK_LINKS.map((l) => (
               <li key={l.label}><a href={l.href}>{l.label}</a></li>
@@ -63,10 +63,10 @@ export default function Footer() {
         </div>
 
         <div className="footer__col">
-          <h4>Contact</h4>
+        
           <ul className="footer__contact">
             <li>50, Bima Rd, Shiv Shakti Nagar, Nagar Nigam Colony, Dewas, Madhya Pradesh 455001</li>
-            <li>+91 98765 43210</li>
+            <li>+91 9826527427</li>
           </ul>
         </div>
       </div>

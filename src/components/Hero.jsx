@@ -55,7 +55,7 @@ export default function Hero() {
           <div className="hero__float hero__float--bottom glass">
             <span className="hero__float-icon">⏰</span>
             <div>
-              <strong>24×7</strong>
+              <strong>12×7</strong>
               <p>Access</p>
             </div>
           </div>
