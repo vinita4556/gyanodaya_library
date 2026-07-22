@@ -6,7 +6,7 @@ const REVIEWS = [
   {
     name: 'Vinita Parmar',
     exam: 'UPSC Aspirant',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=160&q=80',
+   
     rating: 5,
     review:
       'The silence here is unmatched. I used to lose hours to distractions at home — at StudyNest I finally cover my full daily target.',
@@ -14,7 +14,7 @@ const REVIEWS = [
   {
     name: 'Rohit Verma',
     exam: 'SSC CGL Aspirant',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80',
+  
     rating: 5,
     review:
       'Clean, well-lit, and the AC hall makes a huge difference in summer. The 24×7 access fits perfectly around my job schedule.',
@@ -22,7 +22,7 @@ const REVIEWS = [
   {
     name: 'Priya Nair',
     exam: 'Banking Aspirant',
-    avatar: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=160&q=80',
+ 
     rating: 5,
     review:
       'Individual desks and lockers keep my books organised, and the Wi-Fi is fast enough for every mock test I take.',
@@ -30,7 +30,7 @@ const REVIEWS = [
   {
     name: 'Karan Mehta',
     exam: 'GATE Aspirant',
-    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=160&q=80',
+
     rating: 5,
     review:
       'What stands out is the discipline of the space itself — everyone here is focused, and that energy keeps me consistent.',

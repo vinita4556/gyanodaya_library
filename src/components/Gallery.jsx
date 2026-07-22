@@ -2,7 +2,7 @@ import Reveal from './Reveal.jsx';
 import './Gallery.css';
 import rec from "../assets/rec.png";
 import student from "../assets/student.png";
-import table from "../assets/table.png";
+import chairs from "../assets/chairs.png";
 import cabins from "../assets/cabins.png";
 import sitting from "../assets/sitting.png";
 import ChatGpt from "../assets/ChatGpt.png";
@@ -36,7 +36,7 @@ const IMAGES = [
     label: 'Library Interior',
   },
   {
-    src: table,
+    src: chairs,
     alt: 'Bright study hall with natural light',
     label: 'Study tables',
   },
