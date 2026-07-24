@@ -1,94 +1,104 @@
 # 📚 Gyanodaya Self Study Library
 
-A modern, responsive, and premium frontend website for **Gyanodaya Self Study Library**, designed to provide students with information about the library, its facilities, study environment, membership plans, gallery, testimonials, and contact details.
+A **modern, responsive, and premium frontend website** built for **Gyanodaya Self Study Library**, designed to provide students with a distraction-free learning experience through an elegant and informative web presence.
+
+The website showcases the library's facilities, membership plans, study environment, gallery, testimonials, FAQs, and contact information with a clean **Blue & White** theme and smooth user experience.
 
 ---
 
-## 🌟 Features
+# 🌟 Features
 
-- 🏠 Modern Landing Page
-- 📖 Peaceful Study Environment Showcase
-- ✨ Smooth Scroll & Animations
-- 📱 Fully Responsive Design
-- 🪑 Library Facilities Section
-- 💳 Membership Plans
-- 🖼️ Study Hall Gallery
-- 💬 Student Testimonials
-- ❓ FAQ Section
-- 📍 Google Maps Integration
-- 📞 Contact Information
-- 🎨 Clean and Premium UI
-
----
-
-## 🛠️ Tech Stack
-
-- React.js
-- Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Responsive Design
+* 🎯 Modern & Professional Landing Page
+* 📱 Fully Responsive Design (Mobile, Tablet & Desktop)
+* 💙 Premium Blue & White User Interface
+* ✨ Smooth Scroll Animations
+* 📚 Library Introduction
+* 🪑 Modern Study Facilities
+* 💳 Membership Plans
+* 🖼️ Interactive Gallery
+* 💬 Student Testimonials
+* ❓ Frequently Asked Questions
+* 📍 Google Maps Integration
+* 📞 Contact Section
+* ⚡ Fast Performance with Vite
 
 ---
 
-## 🎨 Color Palette
+# 🛠️ Tech Stack
 
-| Color | Hex |
-|--------|------|
-| Primary Green | `#4A7C2A` |
-| Light Green | `#D1E8D2` |
-| White | `#FFFFFF` |
-| Dark Text | `#1F2937` |
+| Technology        | Usage                |
+| ----------------- | -------------------- |
+| React.js          | Frontend Framework   |
+| Vite              | Build Tool           |
+| JavaScript (ES6+) | Programming Language |
+| HTML5             | Structure            |
+| CSS3              | Styling              |
+| Responsive Design | Mobile Friendly UI   |
 
 ---
 
-## 📂 Project Structure
+# 🎨 Color Palette
 
+| Color          | Hex Code  |
+| -------------- | --------- |
+| Primary Blue   | `#2563EB` |
+| Dark Blue      | `#1D4ED8` |
+| Light Blue     | `#DBEAFE` |
+| Background     | `#F8FBFF` |
+| White          | `#FFFFFF` |
+| Dark Text      | `#0F172A` |
+| Secondary Text | `#64748B` |
+
+---
+
+# 📂 Project Structure
+
+```text
+gyanodaya_library/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
 ```
-src/
- ├── components/
- ├── assets/
- ├── App.jsx
- ├── main.jsx
- └── index.css
-
-public/
-
-package.json
-vite.config.js
-README.md
-```
 
 ---
 
-## 🚀 Installation
+# 🚀 Getting Started
 
-Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/vinita4556/gyanodaya_library.git
 ```
 
-Go to project directory
+### Navigate to the Project
 
 ```bash
 cd gyanodaya_library
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Build for production
+### Build for Production
 
 ```bash
 npm run build
@@ -96,50 +106,54 @@ npm run build
 
 ---
 
-## 📸 Website Sections
+# 🖥️ Website Sections
 
-- Hero Section
-- Why Choose Us
-- Facilities
-- Membership Plans
-- Gallery
-- Testimonials
-- FAQ
-- Contact
-- Footer
-
----
-
-## 📍 Library Location
-
-**Gyanodaya Self Study Library**
-
-Dewas, Madhya Pradesh, India
+* 🏠 Hero Section
+* 📖 About Library
+* ⭐ Why Choose Us
+* 🪑 Facilities
+* 🖼️ Gallery
+* 💬 Testimonials
+* ❓ FAQ
+* 📞 Contact
+* 🗺️ Google Maps
+* 📌 Footer
 
 ---
 
-## 💡 Future Improvements
+# 🎯 Project Highlights
 
-- Online Membership Registration
-- Admin Dashboard
-- Seat Availability
-- Online Fee Payment
-- Student Login
-- Dark Mode
-- Booking System
+* Clean & Minimal UI
+* Modern Blue & White Theme
+* Smooth User Experience
+* Mobile Responsive Design
+* Organized Component Structure
+* Reusable React Components
+* Easy to Customize
+* Beginner Friendly Codebase
+
+---
+# 🚀 Future Enhancements
+
+* 👤 Student Login System
+* 💳 Online Membership Registration
+* 💰 Online Fee Payment
+* 🪑 Live Seat Availability
+* 📊 Admin Dashboard
+* 🌙 Dark Mode
+* 🔔 Notification System
+* 📱 Progressive Web App (PWA)
 
 ---
 
-## 👩‍💻 Developed By
+# 👩‍💻 Developed By
 
-**Vinita Parmar**
+### Vinita Parmar
 
-GitHub: https://github.com/vinita4556
+Frontend Developer | React.js Enthusiast
 
----
+**GitHub**
 
-## ⭐ Support
-
-If you like this project, don't forget to **Star ⭐ the repository**.
+https://github.com/vinita4556
 
 ---
